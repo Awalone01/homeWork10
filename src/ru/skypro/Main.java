@@ -15,6 +15,8 @@ public class Main {
     System.out.println("Меняем год публикации");
     System.out.println(threeMusketeers);
         System.out.println("сравнение книг - " + govanioli.equals(govaniolio));
+        System.out.println("сравнение книг - " + govanioli.equals(dumas));
         System.out.println("сравнение книг по хэшкоду - " + (govanioli.hashCode() == govaniolio.hashCode()));
+        System.out.println("сравнение книг по хэшкоду - " + (govanioli.hashCode() == dumas.hashCode()));
     }
 }
